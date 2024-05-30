@@ -41,7 +41,7 @@ Original file is located at
 
 
 # Follow-up: If the string data type is mutable in your language, can you solve it in-place with O(1) extra space?
-
+from typing import List
 class Solution:
     def reverseWords(self, s: str) -> str:
         reverse = []
